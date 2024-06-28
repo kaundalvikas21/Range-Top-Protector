@@ -383,4 +383,15 @@ footer > .footer_container .col_2 .copyright_container > p {
   .overlay.open_overlay {
     display: block;
   }
+
+
+  /* mobile_footer start*/
+  footer > .footer_container .col_1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  footer > .footer_container {
+    gap: 4rem;
+}
 }
