@@ -431,6 +431,28 @@ header .ryt_content_wrapper .header_btn {
   align-self: center;
 }
 
+/* used_to_make_global_anchor_tag_place_of_span (working_css_on_blog_pg_and_author_pg) start*/
+.global_product_review  .col_1 .stars_nd_shares .lft_stars > a {
+  font-size: 1.25rem;
+}
+.global_product_review  .stars_nd_shares .lft_stars > a {
+  color: var(--primary_heading_clr);
+  font-family: var(--big_shoulders_txt);
+}
+.global_product_review  .col_2 .stars_nd_shares .lft_stars > a {
+  font-weight: 700;
+}
+
+.global_product_review  .stars_nd_shares .ryt_shares > a {
+  font-family: var(--open_sans_font_family);
+  font-size: 0.875rem;
+  color: #222222;
+}
+.global_product_review  .card_1:hover .stars_nd_shares .ryt_shares > a {
+  color: var(--primary_heading_clr);
+}
+/* used_to_make_global_anchor_tag_place_of_span end*/
+
 /*------ global_product_review end ------*/
 
 /*--- global_recommended_product start ---*/
@@ -963,5 +985,8 @@ footer > .footer_container .col_2 .copyright_container > p {
     gap: 4rem;
   }
 }
+
+
+
 
 
