@@ -66,10 +66,15 @@ h3 {
   font-size: 1.75rem;
   font-weight: 700;
 }
+h4{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
 p {
   font-size: 1rem;
   font-weight: 400;
+  color: var(--para_clr);
 }
 
 .flex_row {
@@ -425,6 +430,7 @@ header .ryt_content_wrapper .header_btn {
 .global_product_review .global_prod_review_container > a {
   align-self: center;
 }
+
 /*------ global_product_review end ------*/
 
 /*--- global_recommended_product start ---*/
@@ -740,6 +746,8 @@ gap: 4rem;
 .faq_sec .accordion_card .cross_x {
   transform: rotate(0deg);
   transition: transform 0.3s ease-in-out;
+  width: 20px;
+  height: 20px;
 }
 
 .faq_sec .accordion_card.active .cross_x {
@@ -957,44 +965,3 @@ footer > .footer_container .col_2 .copyright_container > p {
 }
 
 
-
-
-
-
-
-
-
-/* ONLY SINGLE BLOG PAGE COMPONENTS CSS*/
-
-/* related_posts start*/
-.related_posts_wrapper .inner_heading{
-  background: none;
-  justify-content: flex-start;
-  border-bottom: 1px solid var(--border_clr);
-}
-.related_posts_wrapper .inner_heading > span{
-  color: var(--primary_heading_clr);
-}
-.related_posts_wrapper .global_inner_posts_col .post_wrap{
-border-bottom: none!important;
-}
-/* related_posts end*/
-
-/* popular_articles start*/
-.popular_artic_wrapper .global_latst_post_container{
-  background-color: var(--border_clr);
-  padding: 2rem 1.25rem;
-}
-.popular_artic_wrapper .inner_heading {
-  background: none!important;
-}
-.popular_artic_wrapper .post_wrap .ryt_col_content > a{
-  color: var(--solid_white_clr);
-}
-.popular_artic_wrapper .global_inner_posts_col .post_wrap{
-  border-color: var(--solid_white_clr)!important;
-}
-.popular_artic_wrapper .global_inner_posts_col .post_wrap:hover .ryt_col_content > a {
-  color: var(--solid_white_clr)!important;
-}
-/* popular_articles end*/
