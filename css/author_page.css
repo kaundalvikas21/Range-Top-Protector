@@ -153,3 +153,39 @@
 .author_sec_2 .col_5 .global_heading a:nth-of-type(2) {
   color: var(--primary_heading_clr);
 }
+
+/* col_6 _start*/
+.global_heading a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--big_shoulders_txt);
+}
+.author_sec_2 .col_6 .global_heading a:nth-of-type(1),
+.author_sec_2 .col_6 .global_heading a:nth-of-type(2){
+  color: var(--secondary_head_clr);
+}
+.author_sec_2 .col_6 .global_heading a:nth-of-type(3) {
+  color: var(--primary_heading_clr);
+}
+
+.author_sec_2 .col_6 {
+  margin-top: 2rem;
+align-items: flex-start;
+  justify-content: space-between;
+}
+.author_sec_2 .col_6 .lft_wrapper{
+  max-width: 605px;
+  width: 100%;
+  gap: 2.5rem;
+}
+.author_sec_2 .col_6 .faq_container{
+  padding: 0!important;
+  background: none!important;
+}
+.author_sec_2 .col_6 .accordion_card.active .faq_content{
+  gap: .625rem;
+}
+.author_sec_2 .col_6 .accordion_card .inner_content .faq_content a {
+  color: #0e8ce8;
+  font-weight: 400;
+}
