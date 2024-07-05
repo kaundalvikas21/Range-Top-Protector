@@ -265,7 +265,7 @@ header .ryt_content_wrapper .header_btn {
 }
 
 .global_stove_prot_bnfit .lft_col_wrapper {
-  gap: 1.5rem;
+  gap: 1.25rem;
   max-width: 748px;
   width: 100%;
 }
@@ -275,25 +275,23 @@ header .ryt_content_wrapper .header_btn {
   text-transform: uppercase;
   position: relative;
   color: var(--secondary_head_clr);
+  padding-bottom: .625rem;
+  width: fit-content;
 }
 
 .global_stove_prot_bnfit .lft_col_wrapper h1::after {
   content: "";
-  width: 165px;
+  max-width: 148px;
+  width: 100%;
   height: 2px;
   position: absolute;
   background-color: var(--primary_heading_clr);
-  transform: translate(-50px, 50px);
-  left: 50px;
-  top: 2px;
+  left: 4px;
+  bottom: 0;
 }
 
 .global_stove_prot_bnfit .lft_col_wrapper p {
   color: var(--para_clr);
-}
-
-.global_stove_prot_bnfit .ryt_col button {
-  padding: 13px 38px;
 }
 
 /*------- global_latest_posts start-------*/
@@ -398,6 +396,11 @@ header .ryt_content_wrapper .header_btn {
   width: 2px;
   height: inherit;
   background-color: var(--border_clr);
+
+}
+
+.global_product_review .product_review_card_wrapper>.line:last-child {
+  display: none;
 }
 
 .global_product_review .content_col {
@@ -584,7 +587,7 @@ header .ryt_content_wrapper .header_btn {
 }
 
 .global_recomm_prodct_review .inner_row .mid_col .col_4 {
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .global_recomm_prodct_review .inner_row .mid_col .conut_purchase,
@@ -608,7 +611,7 @@ header .ryt_content_wrapper .header_btn {
   font-weight: 700;
   font-family: var(--big_shoulders_txt);
   width: fit-content;
-  padding: .625rem;
+  padding: 0.625rem;
   color: var(--secondary_head_clr);
   border: 1px solid var(--border_clr);
   box-shadow: 0 4px 0 0;
@@ -669,7 +672,7 @@ header .ryt_content_wrapper .header_btn {
 .global_recomm_prodct_review .accordion_card .faq_content li {
   margin-left: 1.5rem;
   color: var(--para_clr);
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 400;
   font-family: var(--open_sans_font_family);
   padding-block: 0.3rem;
@@ -708,17 +711,18 @@ header .ryt_content_wrapper .header_btn {
   color: var(--secondary_head_clr);
   position: relative;
   text-transform: uppercase;
+  padding-bottom: 0.625rem;
+  width: fit-content;
 }
 
 .global_subscribe_update .lft_col_wrapper h2::after {
   content: "";
-  width: 165px;
+  width: 130px;
   height: 2px;
   position: absolute;
   background-color: var(--primary_heading_clr);
-  transform: translate(-50px, 50px);
-  left: 50px;
-  top: 2px;
+  left: 4px;
+  bottom: 0;
 }
 
 .global_subscribe_update .global_mid_line_red {
@@ -731,7 +735,7 @@ header .ryt_content_wrapper .header_btn {
 }
 
 .global_subscribe_update .lft_col_wrapper {
-  gap: 1.5rem;
+  gap: 1.25rem;
   max-width: 570px;
   width: 100%;
 }
@@ -744,7 +748,7 @@ header .ryt_content_wrapper .header_btn {
   background-color: transparent;
   padding: 0.5rem 1rem;
   outline: none;
-  max-width: 300px;
+  max-width: 265px;
   width: 100%;
   border: 1px solid var(--primary_heading_clr);
   border-right: none;
@@ -755,11 +759,6 @@ header .ryt_content_wrapper .header_btn {
   color: var(--primary_heading_clr);
 }
 
-.global_stove_prot_bnfit .ryt_col button {
-  padding: .875rem 1.25rem;
-}
-
-
 /*-------- global_faq_sec start --------*/
 .faq_sec .faq_main_container {
   gap: 4rem;
@@ -768,8 +767,7 @@ header .ryt_content_wrapper .header_btn {
 .faq_sec .faq_container {
   align-items: center;
   gap: 4rem;
-  background-color: #EFEFEF;
-  ;
+  background-color: #efefef;
   padding: 4rem 1rem;
 }
 
@@ -796,7 +794,7 @@ header .ryt_content_wrapper .header_btn {
   box-shadow: 0 4px 0 0;
   align-items: flex-start;
   justify-content: space-between;
-  padding: .5rem .625rem;
+  padding: 0.5rem 0.625rem;
   cursor: pointer;
   width: 100%;
 }
@@ -815,7 +813,7 @@ header .ryt_content_wrapper .header_btn {
 .faq_sec .inner_content .faq_content p {
   color: var(--para_clr);
   font-weight: 400;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .faq_sec .accordion_card .faq_content {
@@ -843,7 +841,6 @@ header .ryt_content_wrapper .header_btn {
 
 /*-------- global_faq_sec end --------*/
 
-
 /* global_top_5_posts start*/
 .global_top_5_posts_wrapper .global_latst_post_container {
   max-width: 285px !important;
@@ -851,7 +848,7 @@ header .ryt_content_wrapper .header_btn {
 }
 
 .global_top_5_posts_wrapper .global_latst_post_container {
-  gap: 1.25rem;
+  gap: 1.25rem!important;
 }
 
 .global_top_5_posts_wrapper .global_inner_posts_col {
@@ -886,20 +883,18 @@ header .ryt_content_wrapper .header_btn {
 }
 
 .global_top_5_posts_wrapper .post_wrap .ryt_col_content>a {
-  font-size: .938rem;
+  font-size: 0.938rem;
 }
 
 .global_top_5_posts_wrapper .post_wrap .ryt_col_content .content_wrap>a {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .global_top_5_posts_wrapper .global_inner_posts_col .post_wrap .ryt_col_content {
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 /* global_top_5_posts end*/
-
-
 
 /*-------- footer_css start --------*/
 footer {
@@ -956,6 +951,29 @@ footer>.footer_container .col_2 .copyright_container>p {
 
 /*----------- Mobile_screen_css start ---------*/
 @media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: .8rem;
+  }
 
   /* global_css */
   section {
@@ -966,9 +984,29 @@ footer>.footer_container .col_2 .copyright_container>p {
     margin-top: 6rem;
   }
 
+  .global_btn {
+    font-size: 1rem;
+  }
+
+  .red_btn {
+    padding: 10px 30px !important;
+  }
+
+  .white_btn {
+    padding: 10px 30px !important;
+  }
+
+  .global_heading_txt_overline .line_heading>span {
+    font-size: 1.25rem;
+    padding: 15px 45px;
+  }
+
   /* global_css end */
 
   /* component_css start */
+  .mobile_header a>img{
+    width: 116px;
+  }
   header .header_container {
     display: none;
   }
@@ -983,7 +1021,7 @@ footer>.footer_container .col_2 .copyright_container>p {
   /* menu_off_canvas_css */
   .menu_off_canvas {
     display: block;
-    max-width: 240px;
+    max-width: 250px;
     width: 100%;
     height: 100vh;
     min-height: 100vh;
@@ -991,7 +1029,7 @@ footer>.footer_container .col_2 .copyright_container>p {
     top: 0;
     right: 0;
     background-color: var(--solid_white_clr);
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
     z-index: 1002;
@@ -1008,6 +1046,9 @@ footer>.footer_container .col_2 .copyright_container>p {
   .menu_off_canvas .heading_row {
     justify-content: space-between;
     gap: 1rem;
+  }
+  .menu_off_canvas .heading_row a>img{
+width: 116px;
   }
 
   .menu_off_canvas .lists_stove_protect ul {
@@ -1058,15 +1099,169 @@ footer>.footer_container .col_2 .copyright_container>p {
     display: block;
   }
 
+  /* index_css */
+  .global_product_review .product_review_card_wrapper {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .global_product_review .product_review_card_wrapper .card_1 {
+    max-width: 100% !important;
+  }
+
+  .global_product_review .product_review_card_wrapper .card_1 .prodct_img>a {
+    width: 100%;
+  }
+
+  .global_product_review .product_review_card_wrapper>.line {
+    rotate: 0deg;
+    width: auto;
+    background-color: var(--border_clr);
+    height: 2px;
+  }
+
+  .global_product_review .product_review_card_wrapper>.line:last-child {
+    display: inline-block;
+  }
+
+  .global_stove_prot_bnfit .inner_wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 1.4rem;
+  }
+
+  .global_mid_line_red {
+    display: none;
+  }
+
+  .global_stove_prot_bnfit .lft_col_wrapper h1::after {
+    width: 105px;
+  }
+
+  .global_latest_posts .global_latst_post_container,
+  .global_product_review .global_prod_review_container,
+  .global_recomm_prodct_review .recomm_prodct_container,
+  .faq_sec .faq_main_container {
+    gap: 3rem;
+  }
+
+  .global_latest_posts .global_inner_posts_col {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  .global_latest_posts .global_inner_posts_col::after {
+    display: none;
+  }
+
+  .global_latest_posts .global_inner_posts_col .post_wrap {
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+  }
+
+  .global_latest_posts .global_inner_posts_col .post_wrap .post_img>a,
+  .global_latest_posts .global_inner_posts_col .post_wrap .post_img a>img {
+    width: 100%;
+  }
+
+  .global_inner_posts_col .post_wrap .ryt_col_content>a {
+    font-size: 1.25rem;
+  }
+
+  .global_inner_posts_col .post_wrap .ryt_col_content .content_wrap>a {
+    font-size: 1rem;
+  }
+
+  .global_recomm_prodct_review .inner_row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .global_recomm_prodct_review .inner_col_container {
+    gap: 1.25rem;
+  }
+
+  .global_recomm_prodct_review .bottom_content {
+    flex-direction: column;
+  }
+
+  .global_recomm_prodct_review .l_img_wrapper>img {
+    width: 100%;
+  }
+
+  .global_recomm_prodct_review .inner_row_1 span {
+    font-size: 1.25rem;
+    padding: .5rem .625rem;
+  }
+
+  .global_recomm_prodct_review .faq_sec {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+
+  .global_recomm_prodct_review .faq_sec .accordion_card {
+    width: 100%;
+  }
+
+  .global_recomm_prodct_review .inner_row_2 .line {
+    rotate: 0deg;
+    background-color: var(--border_clr);
+    width: auto;
+    height: 1px;
+  }
+
+  .global_subscribe_update .ryt_col {
+    width: 100%;
+  }
+
+  .global_subscribe_update .ryt_col>form {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .global_subscribe_update form>input {
+    border-right: 1px solid var(--primary_heading_clr);
+    max-width: 100%;
+    padding: 1rem 1rem;
+  }
+
+  .global_top_5_posts_wrapper{
+    gap: 1.8rem!important;
+  }
+  .global_top_5_posts_wrapper .global_latst_post_container{
+    max-width: 100%!important;
+  }
+
+  .global_top_5_posts_wrapper  .global_inner_posts_col .post_wrap{
+   flex-direction: row!important;
+  }
+  .global_top_5_posts_wrapper .post_wrap a>img{
+    width: auto!important;
+  }
+  .faq_sec .faq_container{
+    padding: 3rem .5rem;
+    gap: 3rem;
+  }
+
 
   /* mobile_footer start*/
+  footer>.footer_container {
+    gap: 4rem;
+  }
   footer>.footer_container .col_1 {
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
   }
-
-  footer>.footer_container {
-    gap: 4rem;
+  footer>.footer_container .col_1 a>img{
+    width: 116px;
   }
+  footer>.footer_container .col_1 .social_link{
+    max-width: 70%;
+  }
+  footer>.footer_container .col_2 .copyright_container>p{
+    font-size: .625rem;
+  }
+
 }

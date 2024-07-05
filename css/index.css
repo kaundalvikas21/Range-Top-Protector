@@ -86,5 +86,29 @@ padding-right: 0!important;
 
 /*--------- Mobile_responsive start ---------*/
 @media screen and (max-width: 480px){
-    
+    .index_sec_1 .col_1 .product_review_card_wrapper .card_1{
+        max-width: 100%;
+    }
+    .index_sec_1 .index_sec_1_container {
+    gap: 4rem;
+    }
+    .index_sec_1 .col_1 .heading_txt a{
+        font-size: 1.25rem!important;
+    }
+    .index_sec_1 .index_sec_1_container>hr {
+    display: none;
+    }
+    .index_sec_3 .index_sec_3_container{
+        gap: 3rem;
+    }
+    .index_sec_3 .categ_wrapper{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .index_sec_3 .inner_feature_post .img_1 >a{
+        width: 100%;
+    }
+    .index_sec_3 .inner_feature_post .inner_txt {
+    bottom: -15%;
+    }
 }
