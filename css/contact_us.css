@@ -56,7 +56,13 @@
     .contact_us_sec .contact_form_wrapper form {
         grid-template-columns: repeat(1, 1fr)
     }
-
+    .contact_us_sec .contact_form_wrapper{
+        padding: 3rem 1.4rem;
+        gap: 1.8rem;
+    }
+    .contact_us_sec .contact_form_wrapper .heading_col>p{
+        font-size: 1rem;
+    }
     .contact_us_sec .contact_form_wrapper form input:nth-of-type(n + 3),
     .contact_us_sec .contact_form_wrapper form textarea {
         grid-column: 1;

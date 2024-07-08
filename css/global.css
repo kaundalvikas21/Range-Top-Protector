@@ -1239,6 +1239,13 @@ width: 116px;
   .global_top_5_posts_wrapper .post_wrap a>img{
     width: auto!important;
   }
+  .global_top_5_posts_wrapper .global_inner_posts_col .post_wrap .ryt_col_content>a {
+    font-size: 1rem!important;
+  }
+  .global_top_5_posts_wrapper .inner_heading>span{
+    font-size: 1.25rem;
+  }
+
   .faq_sec .faq_container{
     padding: 3rem .5rem;
     gap: 3rem;
